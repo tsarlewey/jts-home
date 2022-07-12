@@ -6,7 +6,7 @@ spec:
   entryPoints: 
     - websecure
   routes:
-  - match: Host(`jtlewey.com`) 
+  - match: Host(`jtlewey.com`)
     kind: Rule
     services:
     - name: home-chart
